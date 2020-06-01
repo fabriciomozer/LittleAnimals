@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/draw_nature_01">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButtonGato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/gato"
+            android:src="@drawable/ic_gato" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:contentDescription="@string/pato"
+            android:src="@drawable/ic_pato" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCavalo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:contentDescription="@string/cavalo"
+            android:src="@drawable/ic_cavalo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonVaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:contentDescription="@string/vaca"
+            android:src="@drawable/ic_vaca" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPassaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:contentDescription="@string/passaro"
+            android:src="@drawable/ic_passaro" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCachorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:contentDescription="@string/cachorro"
+            android:src="@drawable/ic_cachorro" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonPorco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:src="@drawable/ic_porco" 
+            android:contentDescription="@string/porco"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonOvelha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:src="@drawable/ic_ovelha" 
+            android:contentDescription="@string/ovelha"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonSapo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:background="@android:color/transparent" 
+            android:src="@drawable/ic_sapo" 
+            android:contentDescription="@string/sapo"/>
+
+    </LinearLayout>
+
+</LinearLayout>

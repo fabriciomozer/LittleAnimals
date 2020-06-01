@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LittleAnimals</string>
+    <string name="dummy_content"></string>
+    <string name="cavalo">Cavalo</string>
+    <string name="porco">Porco</string>
+    <string name="vaca">Vaca</string>
+    <string name="pato">Pato</string>
+    <string name="cachorro">cachorro</string>
+    <string name="ovelha">Ovelha</string>
+    <string name="passaro">passaro</string>
+    <string name="gato">gato</string>
+    <string name="sapo">Sapo</string>
+
+</resources>
